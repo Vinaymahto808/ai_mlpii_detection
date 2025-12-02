@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-ml-pii-detection
+    env: docker
+    repo: https://github.com/Vinaymahto808/ai_mlpii_detection
+    branch: main
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true
+    startCommand: "streamlit run app.py --server.port $PORT --server.address 0.0.0.0"
