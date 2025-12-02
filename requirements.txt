@@ -5,4 +5,9 @@ spacy
 pytesseract
 pdf2image
 Pillow
-shutil
+opencv-python
+streamlit
+streamlit_pdf_viewer
+presidio_analyzer
+presidio_anonymizer
+faker
